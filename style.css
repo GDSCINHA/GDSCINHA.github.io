@@ -12,7 +12,7 @@ body {
   padding: 2rem;
   font-family: "Noto Sans KR", sans-serif;
 
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
   /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23eaf0f1' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23dfebec' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23d3e5e7' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23c8e0e3' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23bcdade' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23b1d5d9' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23a5cfd4' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E"); */
   /* background by SVGBackgrounds.com */
   background-attachment: fixed;
@@ -29,8 +29,14 @@ body {
 }
 
 img {
-  width: 330px;
-  height: 330px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding-bottom: 0;
+
+  max-width: 100%;
+  height: auto;
+  
   border-radius: 50%;
   margin-bottom: 2.5rem;
   /* border: 3px solid #f6f6f6; */
@@ -60,6 +66,25 @@ nav {
   width: 100%;
   display: block;
   max-width: 380px;
+}
+
+#wrapper{
+  height: auto;
+  min-height: 100%;
+  padding-bottom: 30px;
+}
+
+footer{
+  height: 30px;
+  position : relative;
+  transform : translateY(-100%);
+}
+
+#profile {
+  text-align: center;
+
+  max-width: 380px;
+  max-height: 380px;
 }
 
 ul {
@@ -104,22 +129,47 @@ svg {
   font-size: 1.5rem;
 }
 
-#homepage {
+#btn1 {
   --link-color: #0e76a8;
 }
 
-#notion {
+#btn2 {
   --link-color: #53AA50;
 }
 
-#instagram {
+#btn3 {
   --link-color: #F3B800;
 }
 
-#recruit {
+#btn4 {
   --link-color: #DB2F29;
 }
 
-#github {
+#btn5 {
   --link-color: #3C485E;
+}
+
+#footer {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+
+  /* padding: 0.75rem; */
+  /* margin-bottom: 1rem; */
+  min-width: 240px;
+  height: auto;
+  border-radius: 8px;
+
+  text-align: center;
+  text-decoration: none;
+  /* font-weight: 500; */
+  font-size: 0.7rem;
+
+  box-shadow: 0px 0.5rem 1.5rem -0.25rem var(--link-color);
+  background-color: var(--link-color);
+
+  transition: box-shadow 1s;
+
+  --link-color: #ebebeb;
 }
