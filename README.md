@@ -13,17 +13,14 @@
 <br /><br /><br />
 
 <div>
+<i><strong>reference</strong></i> <br/>
 <i>
-    inspired by
     <a href="https://github.com/GuilhermeBalog/links">
       GuilhermeBalog
     </a>
   </i>
   
-  <br />
-  
   <i>
-    inspired by
     <a href="https://color.adobe.com/My-Color-Theme-google-color-theme-12553122">
       Adobe Color
     </a>
