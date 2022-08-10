@@ -1,3 +1,10 @@
+/* @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');} */
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+/* @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');} */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,10 +19,6 @@ html {
 body {
     padding: 2rem;
     font-family: "Noto Sans KR", sans-serif;
-
-    /* background-color: #f6f6f6; */
-    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23eaf0f1' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23dfebec' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23d3e5e7' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23c8e0e3' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23bcdade' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23b1d5d9' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23a5cfd4' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E"); */
-    /* background by SVGBackgrounds.com */
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -70,12 +73,12 @@ nav {
 }
 
 table {
-    max-width: 380px;
+    min-width: 380px;
     height: auto;
     table-layout: fixed;
     word-break: break-all;
-    /* margin: 10px;
-    padding: 10px; */
+    margin: 10px;
+    padding: 10px;
 }
 
 #wrapper {
@@ -101,9 +104,10 @@ footer {
     max-width: 100%;
     height: auto;
 }
+
 td {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
     padding-right: 4px;
     padding-left: 4px;
     text-align: center;
@@ -114,6 +118,7 @@ td {
 #reqruit {
     width: 60%;
 }
+
 #faq {
     width: 40%;
 }
