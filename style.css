@@ -105,7 +105,8 @@ ul {
 }
 
 td {
-    padding-right: 8px;
+    padding-right: 4px;
+    padding-left: 4px;
     text-align: center;
     position: relative;
     top: 50%;
