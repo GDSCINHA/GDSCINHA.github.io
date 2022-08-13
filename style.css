@@ -191,8 +191,8 @@ svg {
 }
 
 li {
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
     list-style-type: none;
 }
 
@@ -234,6 +234,7 @@ li {
     --link-color: #64a07a;
 }
 
+
 .answer {
     display: flex;
     /* flex-wrap: nowrap; */
@@ -264,10 +265,12 @@ li {
 .im {
     width: 7%;
     max-width: 25px;
+    position: absolute;
+    top: 10px;
 }
 
 .an {
-    width: 77%;
+    margin-left: 40px;
     text-align: left;
     align-content: left;
     align-items: left;
