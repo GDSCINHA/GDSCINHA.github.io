@@ -116,7 +116,7 @@ td {
     top: 50%;
 }
 
-#reqruit {
+#recruit {
     width: 60%;
 }
 
@@ -162,6 +162,7 @@ i {
 svg {
     /* margin-left: 0.5rem; */
     margin-right: 0.5rem;
+    display: flex;
     /* font-size: 1.5rem; */
 }
 
@@ -190,6 +191,8 @@ svg {
 }
 
 li {
+    margin-left: 18px;
+    margin-right: 18px;
     list-style-type: none;
 }
 
@@ -216,8 +219,11 @@ li {
 
     --link-color: #64a07a;
 }
+
 .answer {
     display: flex;
+    /* flex-wrap: nowrap; */
+    position: relative;
     justify-content: left;
     text-align: left;
     align-items: left;
@@ -240,8 +246,16 @@ li {
 
     --link-color: #adadad;
 }
-p.answer {
-    align: left;
+
+.im {
+    width: 7%;
+}
+
+.an {
+    width: 77%;
+    text-align: left;
+    align-content: left;
+    align-items: left;
 }
 
 #question:hover {
