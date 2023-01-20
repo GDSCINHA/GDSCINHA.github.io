@@ -29,6 +29,12 @@
     </a>
   </i>
   <br />
+  <i>
+    <a href="https://fonts.google.com/">
+      Google Fonts
+    </a>
+  </i>
+  <br />
    <i>
     <a href="https://github.com/abhinavsri360/GDSC-Lead-Map">
       abhinavsri360 / GDSC-Lead-Map
